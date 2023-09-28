@@ -24,27 +24,18 @@ namespace Type_Conversions
             int outputval = 0;
             if (oppie == "+") {
                 outputval = inputInt_1 + inputInt_2;
-            } else
-            {
-                if (oppie == "-")
+            } else if (oppie == "-")
                 {
                     outputval = inputInt_1 - inputInt_2;
                 }
-                else
-                {
-                    if (oppie == "*")
+                else if (oppie == "*")
                     {
                         outputval = inputInt_1 * inputInt_2;
                     }
-                    else
-                    {
-                        if (oppie == "/")
+                    else if (oppie == "/")
                         {
                             outputval = inputInt_1 / inputInt_2;
                         }
-                    }
-                }
-            }
             Console.WriteLine("Result is: " + outputval);
             Console.ReadLine();
         }
