@@ -13,7 +13,7 @@ namespace Float_Data_Type
             float minval = float.MinValue;
             float maxval = float.MaxValue;
             //Have to put f to the end of the floating number; otherwise its understood as double type and throws error
-            float somenumber = 12.55f;
+            //float somenumber = 12.55f;
             Console.WriteLine(minval);
             Console.WriteLine(maxval);
             Console.ReadLine();
